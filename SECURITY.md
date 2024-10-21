@@ -1,4 +1,5 @@
 ## Supported Versions
+Shows if the skript Version still works for the latest version of BAV.
 
 | Version | Supported          |
 | ------- | ------------------ |
