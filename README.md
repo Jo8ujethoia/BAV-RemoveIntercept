@@ -15,7 +15,7 @@ Run as Administrator: Ensure to run the script with administrative privileges fo
 Follow Prompts: The script will guide you through the restoration process with clear instructions.
 Review the Log: After execution, review the log messages to verify the successful removal of protections and restoration of settings.
 
-Important Notes
+## Important Notes
 
 Warning: Once BAVInterception is restored, Batch Antivirus will no longer be able to enable it again. Proceed with caution.
 Backup Required: It is essential to have registry backups available in the RegBackup directory for restoration to succeed.
