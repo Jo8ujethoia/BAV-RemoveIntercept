@@ -11,14 +11,14 @@ User Confirmation: Prevents accidental restoration with a confirmation prompt.
 
 ## Usage
 
-Run as Administrator: Ensure to run the script with administrative privileges for it to function correctly.
-Follow Prompts: The script will guide you through the restoration process with clear instructions.
-Review the Log: After execution, review the log messages to verify the successful removal of protections and restoration of settings.
+- Run as Administrator: Ensure to run the script with administrative privileges for it to function correctly.
+- Follow Prompts: The script will guide you through the restoration process with clear instructions.
+- Review the Log: After execution, review the log messages to verify the successful removal of protections and restoration of settings.
 
 ## Important Notes
 
-Warning: Once BAVInterception is restored, Batch Antivirus will no longer be able to enable it again. Proceed with caution.
-Backup Required: It is essential to have registry backups available in the RegBackup directory for restoration to succeed.
+- Warning: Once BAVInterception is restored, Batch Antivirus will no longer be able to enable it again. Proceed with caution.
+- Backup Required: It is essential to have registry backups available in the RegBackup directory for restoration to succeed.
 
 ## Disclaimer
 
