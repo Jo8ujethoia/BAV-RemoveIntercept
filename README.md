@@ -2,7 +2,7 @@
 Addon for BAV, removing Intercept after running it. 
 ## Overview
 
-Restore BAVInterception is a batch script designed to help users manage their Batch Antivirus (BAV) settings efficiently. This script provides an easy way to restore previous registry settings associated with Batch Antivirus Interception, ensuring that your system is configured correctly.
+BavRemoveIntercept is a batch script designed to help users manage their Batch Antivirus (BAV) settings efficiently. This script provides an easy way to restore previous registry settings associated with Batch Antivirus Interception, ensuring that your system is configured correctly.
 Features
 
 Administrative Privileges Check: The script ensures it runs with administrative rights, prompting users if not.
