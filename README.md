@@ -18,7 +18,7 @@ User Confirmation: Prevents accidental restoration with a confirmation prompt.
 
 ## Important Notes
 
-- Warning: Once BAVInterception is restored, Batch Antivirus will no longer be able to enable it again. Proceed with caution.
+- Warning: Once BAVIntercept is restored, Batch Antivirus will no longer be able to enable it again. Proceed with caution.
 - Backup Required: It is essential to have registry backups available in the RegBackup directory for restoration to succeed.
 
 ## Disclaimer
