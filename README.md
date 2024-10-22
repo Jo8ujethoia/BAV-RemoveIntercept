@@ -1,4 +1,4 @@
-# Restore BAVInterception
+# BavRemoveIntercept
 Addon for BAV, removing Intercept after running it. 
 ## Overview
 
