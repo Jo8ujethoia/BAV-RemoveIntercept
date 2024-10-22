@@ -23,7 +23,7 @@ User Confirmation: Prevents accidental restoration with a confirmation prompt.
 
 ## Disclaimer
 
-This script is provided as-is, without any warranty. Use it at your own risk, and ensure you have proper backups before making changes to your syste
+This script is provided as-is, without any warranty. Use it at your own risk, and ensure you have proper backups before making changes to your system.
 
 ## BAV Antivirus
 You can find the BAV (Batch Antivirus) here: https://github.com/anic17/Batch-Antivirus
