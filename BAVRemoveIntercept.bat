@@ -29,6 +29,12 @@ if /i not "%confirm%"=="Y" (
 )
 
 cls
+echo Backing up current registry settings...
+mkdir "%~dp0Backup" >nul 2>&1
+for %%A in ("batfile" "cmdfile" "exefile" "VBSFile" "VBEfile" "JSFile" "JSEfile" "comfile" "mscfile" "WSFFile" "WSHFile") do (
+    reg export "HKEY_CLASSES_ROOT\%%~A" "%~dp0Backup\%%~A_backup.reg" >nul 2>&1
+)
+
 echo Removing Batch Antivirus protection...
 for %%A in ("batfile" "cmdfile" "exefile" "VBSFile" "VBEfile" "JSFile" "JSEfile" "comfile" "mscfile" "WSFFile" "WSHFile") do (
     reg delete "HKEY_CLASSES_ROOT\%%~A\shell\open\command" /f >nul 2>&1 && (
@@ -69,8 +75,7 @@ if exist "%~dp0RegBackup\shell_backup.reg" (
 ) else (
     echo No context menu backup found.
 )
-echo.
-echo.
+
 echo.
 echo ================================
 echo   Restore BAVInterception
